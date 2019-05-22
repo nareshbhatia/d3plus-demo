@@ -1,0 +1,21 @@
+.section {
+    height: 300px;
+    margin: 16px;
+    display: flex;
+    flex-direction: column;
+}
+
+.section__content {
+    flex: 1;
+    display: flex;
+    min-height: 0;
+}
+
+.section__lhs {
+    flex: 1;
+    margin-right: 32px;
+}
+
+.section__rhs {
+    flex: 1;
+}

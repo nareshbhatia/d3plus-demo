@@ -3,6 +3,10 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "@babel/runtime": "^7.4.4",
+    "d3plus-react": "^0.5.3",
+    "numeral": "^2.0.6",
+    "prettier": "^1.17.1",
     "react": "^16.8.6",
     "react-dom": "^16.8.6",
     "react-scripts": "3.0.1"
@@ -11,7 +15,8 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "format": "prettier --write README.md 'src/**/*.{js,jsx}'"
   },
   "eslintConfig": {
     "extends": "react-app"
